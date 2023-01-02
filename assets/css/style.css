@@ -1,0 +1,361 @@
+/* Costom CSS */
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.navbar {
+    box-shadow: 0px 7px 70px 0px rgba(22, 28, 51, 0.07);
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fec07b;
+}
+
+/* Content */
+
+.intro .text {
+    width: 50%;
+}
+.intro .image {
+    width: 50%;
+}
+.intro .image img {
+    width: 100%;
+}
+.intro .text .text-one {
+    font-size: 28px;
+    font-family: "Poppins";
+    font-style: normal;
+}
+.intro .text .text-two {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fec07b;
+    font-family: "Poppins";
+    font-style: normal;
+}
+
+@media (max-width: 992px) {
+    .intro .text .text-one {
+        font-size: 20px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .text .text-two {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fec07b;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 766px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+      }
+    .intro .text .text-one {
+        font-size: 17px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .text .text-two {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fec07b;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 520px) {
+    .intro .text .text-one {
+        font-size: 14px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .text .text-two {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fec07b;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 460px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro .text {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .intro .text .text-one {
+        font-size: 20px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .text .text-two {
+        font-size: 32px;
+        font-weight: 600;
+        color: #fec07b;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 315px) {
+    .intro .text .text-one {
+        font-size: 18px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .text .text-two {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fec07b;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+.rectangle {
+    width: 100%;
+    background: #fec07b;
+    border-radius: 20px;
+}
+
+.rectangle .text {
+    padding: 1rem 0;
+}
+
+.rectangle .text .ms1 {
+    color: white;
+    font-size: 32px;
+    font-family: "PT Mono";
+    font-style: normal;
+}
+.rectangle .text .ms2 {
+    color: white;
+    font-size: 20px;
+    font-family: "PT Mono";
+    font-style: normal;
+}
+
+@media (max-width: 992px) {
+    .rectangle .text .ms1 {
+        color: white;
+        font-size: 32px;
+    }
+    .rectangle .text .ms2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 766px) {
+      .intro {
+    display: flex;
+    flex-direction: column;
+  }
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .rectangle .text .ms1 {
+        color: white;
+        font-size: 32px;
+    }
+    .rectangle .text .ms2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    .rectangle .text .ms1 {
+        color: white;
+        font-size: 32px;
+    }
+    .rectangle .text .ms2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 460px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro .text {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .rectangle .text .ms1 {
+        color: white;
+        font-size: 32px;
+    }
+    .rectangle .text .ms2 {
+        color: white;
+        font-size: 20px;
+    }
+    .intro .image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 315px) {
+    .rectangle .text .ms1 {
+        color: white;
+        font-size: 32px;
+    }
+    .rectangle .text .ms2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+/* end rectangle */
+
+/* awal about me */
+.intro .text {
+    width: 50%;
+}
+.intro .image {
+    width: 50%;
+}
+.intro .image img {
+    width: 100%;
+}
+.intro .text .am {
+    color: #fec07b;
+    font-size: 36px;
+    font-family: "PT Mono";
+}
+
+.intro .text .am1 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+}
+
+@media (max-width: 992px) {
+    .intro .text .am {
+        color: #fec07b;
+        font-size: 36px;
+        font-family: "PT Mono";
+    }
+
+    .intro .text .am1 {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 766px) {
+    .intro .text .am {
+        color: #fec07b;
+        font-size: 32px;
+        font-family: "PT Mono";
+    }
+
+    .intro .text .am1 {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 520px) {
+    .intro .text .am {
+        color: #fec07b;
+        font-size: 36px;
+        font-family: "PT Mono";
+    }
+
+    .intro .text .am1 {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+
+@media (max-width: 460px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro .text {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .intro .text .am {
+        color: #fec07b;
+        font-size: 36px;
+        font-family: "PT Mono";
+    }
+
+    .intro .text .am1 {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+    .intro .image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 315px) {
+    .intro .text .am {
+        color: #fec07b;
+        font-size: 36px;
+        font-family: "PT Mono";
+    }
+
+    .intro .text .am1 {
+        font-size: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+    }
+}
+/* Akhir about me */
+
+
+
+.intro .pt {
+    font-size: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    color: #fec07b;
+}
+
+.last {
+    width: 100%;
+    background-color: #fec07b;
+}
+.last .text {
+    padding: 1rem 0;
+}
+.last .text .by {
+    color: white;
+    font-size: 20px;
+    font-family: "PT Mono";
+}
+/* End Content */
